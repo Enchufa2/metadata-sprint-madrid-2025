@@ -1,0 +1,79 @@
+FileSystemDataset with 240612 Parquet files
+DOI: string
+ISSN: list<element: string>
+URL: string
+alternative-id: list<element: string>
+author: list<element: struct<affiliation: list<element: struct<name: string, place: list<element: string>, id: list<element: struct<asserted-by: string, id: string, id-type: string>>, department: list<element: string>, acronym: list<element: string>>>, family: string, given: string, sequence: string, name: string, suffix: string, ORCID: string, authenticated-orcid: bool>>
+container-title: list<element: string>
+content-domain: struct<crossmark-restriction: bool, domain: list<element: string>>
+created: struct<date-parts: list<element: list<element: int64>>, date-time: timestamp[us], timestamp: int64>
+deposited: struct<date-parts: list<element: list<element: int64>>, date-time: timestamp[us], timestamp: int64>
+indexed: struct<date-parts: list<element: list<element: int64>>, date-time: timestamp[us], timestamp: int64, version: string>
+is-referenced-by-count: int64
+issn-type: list<element: struct<type: string, value: string>>
+issue: string
+issued: struct<date-parts: list<element: list<element: int64>>>
+journal-issue: struct<issue: string, published-print: struct<date-parts: list<element: list<element: int64>>>, published-online: struct<date-parts: list<element: list<element: int64>>>>
+language: string
+license: list<element: struct<URL: string, content-version: string, delay-in-days: int64, start: struct<date-parts: list<element: list<element: int64>>, date-time: timestamp[us], timestamp: int64>>>
+link: list<element: struct<URL: string, content-type: string, content-version: string, intended-application: string>>
+member: string
+page: string
+prefix: string
+published: struct<date-parts: list<element: list<element: int64>>>
+published-print: struct<date-parts: list<element: list<element: int64>>>
+publisher: string
+reference: list<element: struct<article-title: string, author: string, first-page: string, journal-title: string, key: string, volume: string, year: string, DOI: string, doi-asserted-by: string, unstructured: string, issue: string, series-title: string, volume-title: string, edition: string, ISSN: string, issn-type: string, ISBN: string, isbn-type: string, component: string, standards-body: string, standard-designator: string>>
+reference-count: int64
+references-count: int64
+resource: struct<primary: struct<URL: string>, secondary: list<element: struct<URL: string, label: string>>>
+score: double
+short-container-title: list<element: string>
+source: string
+title: list<element: string>
+volume: string
+special_numbering: string
+published-online: struct<date-parts: list<element: list<element: int64>>>
+abstract: string
+article-number: string
+archive: list<element: string>
+assertion: list<element: struct<group: struct<label: string, name: string>, label: string, name: string, order: int64, value: string, explanation: struct<URL: string>, URL: string>>
+update-policy: string
+subtitle: list<element: string>
+updated-by: list<element: struct<DOI: string, label: string, source: string, type: string, updated: struct<date-parts: list<element: list<element: int64>>, date-time: string, timestamp: int64>, record-id: string>>
+relation: map<string, list<element: struct<asserted-by: string, id: string, id-type: string>> ('relation')>
+funder: list<element: struct<DOI: string, doi-asserted-by: string, id: list<element: struct<asserted-by: string, id: string, id-type: string>>, name: string, award: list<element: string>>>
+update-to: list<element: struct<DOI: string, label: string, record-id: string, source: string, type: string, updated: struct<date-parts: list<element: list<element: int64>>, date-time: string, timestamp: int64>>>
+published-other: struct<date-parts: list<element: list<element: int64>>>
+editor: list<element: struct<affiliation: list<element: struct<name: string, id: list<element: struct<asserted-by: string, id: string, id-type: string>>, place: list<element: string>, acronym: list<element: string>, department: list<element: string>>>, family: string, given: string, sequence: string, ORCID: string, authenticated-orcid: bool, name: string, suffix: string>>
+aliases: list<element: string>
+original-title: list<element: string>
+ISBN: list<element: string>
+isbn-type: list<element: struct<type: string, value: string>>
+publisher-location: string
+description: string
+event: struct<location: string, name: string, end: struct<date-parts: list<element: list<element: int64>>>, start: struct<date-parts: list<element: list<element: int64>>>, acronym: string, sponsor: list<element: string>, number: string, theme: string>
+accepted: struct<date-parts: list<element: list<element: int64>>>
+short-title: list<element: string>
+review: struct<competing-interest-statement: string, recommendation: string, revision-round: string, stage: string, type: string, language: string, running-number: string>
+group-title: string
+institution: list<element: struct<name: string, place: list<element: string>, acronym: list<element: string>, department: list<element: string>, id: list<element: struct<asserted-by: string, id: string, id-type: string>>>>
+posted: struct<date-parts: list<element: list<element: int64>>>
+subtype: string
+approved: struct<date-parts: list<element: list<element: int64>>>
+standards-body: struct<acronym: string, name: string>
+content-created: struct<date-parts: list<element: list<element: int64>>>
+edition-number: string
+degree: list<element: string>
+issue-title: list<element: string>
+translator: list<element: struct<affiliation: list<element: struct<name: string, id: list<element: struct<asserted-by: string, id: string, id-type: string>>, place: list<element: string>>>, family: string, given: string, sequence: string, name: string, ORCID: string, authenticated-orcid: bool, suffix: string>>
+clinical-trial-number: list<element: struct<clinical-trial-number: string, registry: string, type: string>>
+award: string
+award-start: struct<date-parts: list<element: list<element: int64>>>
+project: list<element: struct<award-end: struct<date-parts: list<element: list<element: int64>>>, award-start: struct<date-parts: list<element: list<element: int64>>>, funding: list<element: struct<funder: struct<id: list<element: struct<asserted-by: string, id: string, id-type: string>>, name: string>, type: string, scheme: string, award-amount: struct<amount: double, currency: string, percentage: int64>>>, investigator: list<element: struct<affiliation: list<element: struct<country: string, name: string, id: list<element: struct<asserted-by: string, id: string, id-type: string>>>>, family: string, given: string, ORCID: string, authenticated-orcid: bool, alternate-name: list<element: string>, role-start: struct<date-parts: list<element: list<element: int64>>>, role-end: struct<date-parts: list<element: list<element: int64>>>>>, lead-investigator: list<element: struct<affiliation: list<element: struct<country: string, name: string, id: list<element: struct<asserted-by: string, id: string, id-type: string>>>>, family: string, given: string, ORCID: string, authenticated-orcid: bool, alternate-name: list<element: string>, role-start: struct<date-parts: list<element: list<element: int64>>>, role-end: struct<date-parts: list<element: list<element: int64>>>>>, project-title: list<element: struct<title: string, language: string>>, project-description: list<element: struct<description: string, language: string>>, award-amount: struct<amount: double, currency: string>, co-lead-investigator: list<element: struct<ORCID: string, affiliation: list<element: struct<country: string, name: string, id: list<element: struct<asserted-by: string, id: string, id-type: string>>>>, authenticated-orcid: bool, family: string, given: string, role-end: struct<date-parts: list<element: list<element: int64>>>, role-start: struct<date-parts: list<element: list<element: int64>>>>>, award-planned-end: struct<date-parts: list<element: list<element: int64>>>>>
+proceedings-subject: string
+chair: list<element: struct<affiliation: list<element: struct<name: string, id: list<element: struct<asserted-by: string, id: string, id-type: string>>, department: list<element: string>, acronym: list<element: string>, place: list<element: string>>>, family: string, given: string, sequence: string, ORCID: string, authenticated-orcid: bool, name: string, suffix: string>>
+content-updated: struct<date-parts: list<element: list<element: int64>>>
+part-number: string
+type: string
+year: string
