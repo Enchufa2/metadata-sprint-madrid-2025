@@ -7,7 +7,7 @@
 library(dplyr)
 
 conn <- DBI::dbConnect(duckdb::duckdb()) # works in memory by default
-dblc <- "202503-PDF-sample.hive.parquet/*/*/*.parquet"
+dblc <- "202503-PDF.hive.parquet/*/*/*.parquet"
 DBI::dbSendQuery(conn, paste0("CREATE VIEW pdf AS SELECT * FROM '", dblc, "'"))
 
 bench::system_time({

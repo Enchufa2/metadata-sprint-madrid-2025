@@ -7,7 +7,7 @@
 #'   takes about the same time, including writing the result into a Parquet file
 #' 
 
-DBLC='202503-PDF-sample.hive.parquet/*/*/*.parquet'
+DBLC='202503-PDF.hive.parquet/*/*/*.parquet'
 
 time duckdb :memory: " \
   copy ( \
